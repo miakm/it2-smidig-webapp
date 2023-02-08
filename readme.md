@@ -1,6 +1,8 @@
 # Navn på app her
 
-Skriv en kort beskrivelse av appen her
+Skriv en kort beskrivelse av appen her  
+
+- [Prosjektbeskrivelse](./prosjektbeskrivelse.md)
 
 ## Skal gjøres
 
