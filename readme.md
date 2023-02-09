@@ -27,14 +27,14 @@ Skriv en kort beskrivelse av appen her
 - Kjør dette i terminalen: 
   - Mac: `python3 -m venv venv; . venv/bin/activate; pip install -r requirements.txt`
   - Windows: `py -3 -m venv venv && venv\\Scripts\\activate && pip install -r requirements.txt`
-- Start prosjekt med å kjøre `app.py`, enten ved trykke play i `app.py` på VS Code eller skrive `python app.py`
+- Start prosjekt med å kjøre `app.py`, enten ved trykke play i `app.py` i VS Code eller skrive `python app.py`
 
 ### Ellers
 
 - Aktiver virtuelt miljø i terminalen: 
   - Mac: `. venv/bin/activate`
   - Windows: `venv\\Scripts\\activate`
-- Start prosjekt med å kjøre `app.py`, enten ved trykke play i `app.py` på VS Code eller skrive `python app.py`
+- Start prosjekt med å kjøre `app.py`, enten ved trykke play i `app.py` i VS Code eller skrive `python app.py`
 
 
 
