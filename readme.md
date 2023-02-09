@@ -25,16 +25,16 @@ Skriv en kort beskrivelse av appen her
 
 - Klon dette prosjektet med Github-deskop eller last det ned som .zip og pakk ut
 - Kjør dette i terminalen: 
-  - Mac: `python3 -m venv venv; . venv/bin/activate; pip install -r requirements`
+  - Mac: `python3 -m venv venv; . venv/bin/activate; pip install -r requirements.txt`
   - Windows: `py -3 -m venv venv && venv\\Scripts\\activate && pip install -r requirements.txt`
-- Start prosjekt med å kjøre `app.py`, enten ved trykke play i `app.py` på VS Code eller skrive `python3 app.py`/`python app.py`
+- Start prosjekt med å kjøre `app.py`, enten ved trykke play i `app.py` på VS Code eller skrive `python app.py`
 
 ### Ellers
 
 - Aktiver virtuelt miljø i terminalen: 
   - Mac: `. venv/bin/activate`
   - Windows: `venv\\Scripts\\activate`
-- Start prosjekt med å kjøre `app.py`, enten ved trykke play i `app.py` på VS Code eller skrive `python3 app.py`/`python app.py`
+- Start prosjekt med å kjøre `app.py`, enten ved trykke play i `app.py` på VS Code eller skrive `python app.py`
 
 
 
