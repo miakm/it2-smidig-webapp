@@ -1,17 +1,18 @@
 from flask import Flask, render_template
-from quiz import hent_data
+from quiz import hent_spm
+from quiz import hent_svar
 
 app = Flask(__name__)
 
-spm = hent_data()
+spm = hent_spm()
+svar = hent_svar()
 
 @app.route("/")
 def index():
-    navn = "Sandvika"
-    return render_template("index.html", navn=navn)
+    return render_template("index.html")
 
 @app.route("/questions")
-def index():
+def rute_spm():
     return render_template("questions.html", spm=spm)
 
 app.run(debug=True)
