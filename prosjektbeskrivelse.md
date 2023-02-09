@@ -14,6 +14,8 @@ Kanskje starter du med en Vær-app og ender opp med en Chatbot.
 | Delinnleveringer   | Hver torsdag på github eller teams                |
 | Ferdig innlevering | Lenke til github/nettsted eller .zip-fil på teams |
 
+> [Her finner du info om hvordan Flask fungerer: https://www.sandvika.it/category/6-flask](https://www.sandvika.it/category/6-flask)
+
 ## Innlevering
 
 Koden skal leveres enten ved en lenke til et Github-repo eller som .zip-fil på Teams.
