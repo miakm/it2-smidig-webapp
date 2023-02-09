@@ -6,8 +6,12 @@ Skriv en kort beskrivelse av appen her
 
 ## Skal gjøres
 
-- [ ] Hva er planen din?
-- [x] Eksempel på ferdig gjøremål
+- [ ] Hente informasjon fra API
+- [ ] Lage HTML mal
+- [ ] Lage CSS
+- [ ] Få inn informasjon på nettsiden
+
+
 
 ## Logg
 
