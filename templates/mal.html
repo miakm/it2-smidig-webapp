@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
     <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}">
 </head>
-<body>
+<header>
     <nav>
         <a href="/">Hjem</a>
         <a href="/questions">Spørsmål</a>
     </nav>
+</header>
+<body>
     <main>
         {% block main %}{% endblock %}
 
