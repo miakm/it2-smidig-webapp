@@ -4,7 +4,10 @@
 
 <h1>Spørsmål</h1>
 
-    <button>{{spm}}</button>
-    <button>{{svar}}</button>
-    <button>{{feil_svar}}</button>
+    <button>{{spm["sporsmaal"]}}</button>
+    <button>{{spm["svar"]}}</button>
+    {% for svar in spm["feil_svar"] %}
+        <button>{{svar}}</button>
+    {% endfor %}
+
 {% endblock %}

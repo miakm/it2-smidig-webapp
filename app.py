@@ -7,10 +7,6 @@ app = Flask(__name__)
 spm = hent_spm()
 
 
-
-# for xsvar in feil_svar:
-#     print
-
 @app.route("/")
 def index():
     return render_template("index.html")
