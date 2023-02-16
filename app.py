@@ -1,11 +1,15 @@
 from flask import Flask, render_template
 from quiz import hent_spm
-from quiz import hent_svar
+
 
 app = Flask(__name__)
 
 spm = hent_spm()
-svar = hent_svar()
+
+
+
+# for xsvar in feil_svar:
+#     print
 
 @app.route("/")
 def index():
