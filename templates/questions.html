@@ -4,10 +4,21 @@
 
 <h1>Spørsmål</h1>
 
-    <p>{{spm["sporsmaal"]}}</p>
-    <button>{{spm["svar"]}}</button>
-    {% for svar in spm["feil_svar"] %}
-        <button>{{svar}}</button>
+    <h3>{{spm["sporsmaal"]}}</h3>
+
+    {% for svar in alle_svar %}
+        <button onclick="klikk_funksjon()">{{svar}}</button>
     {% endfor %}
 
+
+<script>
+function klikk_funksjon() {
+    if (klikk_funksjon() = spm["svar"]) {
+        printes = "Riktig svar!"
+    } else {
+        printes = "Feil svar!"
+    }
+    document.getElementById("feil_eller_riktig").innerHTML = printes;
+}
+</script>
 {% endblock %}

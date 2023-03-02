@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from quiz import hent_spm
-
+import random
 
 app = Flask(__name__)
 
@@ -13,6 +13,8 @@ def index():
 
 @app.route("/questions")
 def rute_spm():
-    return render_template("questions.html", spm=spm)
+    alle_svar = spm["feil_svar"] + [spm["svar"]]
+    random.shuffle(alle_svar)
+    return render_template("questions.html", spm=spm, alle_svar=alle_svar)
 
 app.run(debug=True)
