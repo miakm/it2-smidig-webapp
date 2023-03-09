@@ -8,17 +8,13 @@
 
     {% for svar in alle_svar %}
         <button onclick="klikk_funksjon()">{{svar}}</button>
+        <p id="M"></p>
     {% endfor %}
-
 
 <script>
 function klikk_funksjon() {
-    if (klikk_funksjon() = spm["svar"]) {
-        printes = "Riktig svar!"
-    } else {
-        printes = "Feil svar!"
-    }
-    document.getElementById("feil_eller_riktig").innerHTML = printes;
+    document.getElementById("M").innerHTML
+        = "Riktig";
 }
 </script>
 {% endblock %}
