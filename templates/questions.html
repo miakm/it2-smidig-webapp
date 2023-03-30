@@ -7,14 +7,9 @@
     <h3>{{spm["sporsmaal"]}}</h3>
 
     {% for svar in alle_svar %}
-        <button onclick="klikk_funksjon()">{{svar}}</button>
-        <p id="M"></p>
+        <button class="btn" data-answer="correct">{{svar}}</button>
+        <div id="score">0</div>
     {% endfor %}
 
-<script>
-function klikk_funksjon() {
-    document.getElementById("M").innerHTML
-        = "Riktig";
-}
-</script>
+    <!-- <script src="{{ url_for('static', filename='poeng.js') }}"></script> -->
 {% endblock %}
